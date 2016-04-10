@@ -21,7 +21,7 @@ TagManager:
   - GhostHead
   - GhostWorld
   - Carryable
-  - 
+  - characteranim
   - 
   - 
   - 
@@ -43,4 +43,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: character
+    uniqueID: 3803552329
+    locked: 0
+  - name: bones
+    uniqueID: 1776965723
+    locked: 0
+  - name: controls
+    uniqueID: 2285545369
     locked: 0

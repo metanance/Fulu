@@ -120,8 +120,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f5e484ad1ee4457bbf8bfd9363f4afc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zoomSmoothTime: 0.1
-  followType: 0
 --- !u!124 &12465080
 Behaviour:
   m_ObjectHideFlags: 1
