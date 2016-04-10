@@ -15,7 +15,7 @@ public class GameFlowController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (Input.GetKeyDown ("r")) {
-			Application.LoadLevel ("level" + currentLevel);
+			Application.LoadLevel ("level0" + currentLevel);
 		}
 		if (Input.GetKeyDown(KeyCode.Escape)) {
 			Application.Quit();

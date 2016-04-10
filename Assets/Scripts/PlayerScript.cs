@@ -44,6 +44,11 @@ public class PlayerScript : MonoBehaviour {
 
 //			rb2d.AddForce (Vector2.up * jumpPower);
 		}
+
+		if (Input.GetKeyDown ("g")) {
+			anim.SetTrigger ("TriggerSummon");
+			Debug.Log ("Trigger summon");
+		}
 //		Debug.Log (Input.GetAxis ("Vertical") == 1);
 		// limiting the jump:
 //		if (rb2d.velocity.y > maxJumpPower) {
